@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="div1">
+<form>
+    <a href="AnandViharCollege.html" class="button">Home</a>
+    <h1 style="text-align: center;"><u>Student Registration Form</u></h1>
+    <div style="background-image: url(brown.jpg);">
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="First_name" maxlength="30">
+                    (max 30 character a-z or A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="Last_name" maxlength="30">
+                    (max 30 character from a-z or A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date Of Birth:</td>
+                <td><input type="date" id="birthday" name="birthday">
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-mail id:</td>
+                <td><input type="text" name="email_id" maxlength="100"></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="text" name="mobile_number" maxlength="10">
+                    (10 Digit Mobile Number)
+            </td></tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>Male<input type="radio" name="Gender" value="Male">
+                    Female<input type="radio" name="Gender" value="Female">
+                    Transgender<input type="radio" name="Gender" value="Transgender">                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address:<br><br><br></td>
+                <td><textarea name="Address" rows="8" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="City_name" maxlength="30">
+                    (Enter the name of your city)
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pin Code:</td>
+                <td><input type="text" name="pincode" maxlength="6">
+                    (Enter your Pin Code)    
+                </td>
+            </tr>
+
+            <tr>
+            <td>State:</td>
+                <td><input type="text" name="state_name" maxlength="30">
+                    (Enter the name of your City)    
+                </td>
+            </tr>
+
+            <tr>
+                <td>Country:</td>
+                <td><input type="text" name="country_name" value="India" readonly="readonly" maxlength="30">
+                (Enter the name of your country)</td>
+            </tr>
+
+            <tr>
+            <td>Hobby:</td>
+            <td>Drawing<input type="checkbox" name="Hobby_Drawing" value="Drawing">
+                Singing<input type="checkbox" name="Hobby_singing" value="Singing">
+                Cooking<input type="checkbox" name="Hobby_cooking" value="Cooking">
+                <br><br>
+                Others <input type="checkbox" name="Hobby_others" value="Others">
+                       <input type="text" name="Hobby_text" maxlength="50">
+                       (Enter Hobby)
+            </td>
+            </tr>
+
+            <tr>
+                <td>Qualification:<br><br><br><br></td>
+                <td>
+                    <table>
+                    <tr>
+                        <td align="center"><b>Sl. No.</b></td>
+                        <td align="center"><b>Examination</b></td>
+                        <td align="center"><b>Board</b></td>
+                        <td align="center"><b>Percentage</b></td>
+                        <td align="center"><b>Year of Passing</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>1.</td>
+                        <td>Class X</td>
+                        <td><input type="text" name="ClassX_Board" maxlength="30"></td>
+                        <td><input type="text" name="ClassX_Percentage" maxlength="30"></td>
+                        <td><input type="text" name="ClassX_year_of_passing" maxlength="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>2.</td>
+                        <td>Class XII</td>
+                        <td><input type="text" name="ClassXII_Board" maxlength="30"></td>
+                        <td><input type="text" name="ClassXII_Percentage" maxlength="30"></td>
+                        <td><input type="text" name="ClassXII_year_of_passing" maxlength="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>3.</td>
+                        <td>Graduation</td>
+                        <td><input type="text" name="Graduation_Board" maxlength="30"></td>
+                        <td><input type="text" name="Graduation_Percentage" maxlength="30"></td>
+                        <td><input type="text" name="Graduation_year_of_passing" maxlength="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>4.</td>
+                        <td>Post-Graduation</td>
+                        <td><input type="text" name="Post-Graduation_Board" maxlength="30"></td>
+                        <td><input type="text" name="Post-Graduation_Percentage" maxlength="30"></td>
+                        <td><input type="text" name="Post-Graduation_year_of_passing" maxlength="30"></td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>COURSES<br>APPLIED FOR</td>
+                <td>BCA<input type="radio" name="course_BCA" value="BCA">
+                B.Sc.<input type="radio" name="course_B.sc." value="B.Sc.">
+                BA<input type="radio" name="course_BA" value="BA"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"></td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+</form>
+</body>
+</html

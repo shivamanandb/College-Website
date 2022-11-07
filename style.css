@@ -1,0 +1,37 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1
+{
+  text-align: center;
+  background-color: brown;
+  color: darkgrey;
+  padding:10px;
+  border: 5px solid blue;
+  margin:50px;
+}
+
+p
+{
+  color:brown;
+}     
+body
+{
+  background-image: url(bubble.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+img 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}     
+span
+  {
+    border:1px solid black;
+    color:blueviolet;
+  }

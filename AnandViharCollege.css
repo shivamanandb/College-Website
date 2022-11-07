@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my_menu {
+    position:absolute;
+    height: auto;
+    width: 100%;
+    background-color: rgb(179, 159, 145);
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    height: 55px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.menu ul li{
+    margin: 0px;
+}
+
+.menu ul{
+    display:none;
+}
+
+.menu li:hover ul{
+    display:block;
+}
+
+/* .menu ul li ul{
+    display: none !important;;
+}
+
+.menu ul li:hover ul{
+    display:block !important;
+    
+}
+ */
+
+.menu li {
+    list-style: none;
+    height: 60px;
+    width: 160px;
+    margin-left: 40px;
+    background-color: rgb(103, 77, 77);
+    text-align: center;
+    line-height: 60px;
+    float: left;
+}
+
+.menu li:hover{
+    background-color: burlywood;
+}
+
+.menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    color:crimson;
+}
+.logo {
+    width: 69px;
+}
+
+.logo_li{
+    background-color: rgb(179, 159, 145)!important;
+}
+
+/* #backgroundImage */
+#background_image {
+    width:100%;
+    
+}
+
+#background_image img{
+    width:100%;
+    margin-top: 50px;
+}
+
+#why_choose h1{
+    width:200px;
+    text-align:center;
+    font-size:30px;
+    color: red;
+    border-bottom:solid red;
+    margin: 0 auto;    /*0 for top and bottom and auto for 
+                         left and right. margin: 0 auto; is 
+                         used to center objects or things. */
+}
+
+.div_section1 {
+    width: 20%;
+    height: 300px;
+    margin: 35px;
+    text-align: center;
+    float: left;
+}
+hr {
+    clear:left;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 100px; 
+    background-color: darkred;  
+     
+}
+
+.icon img:hover {
+    transition-duration: 0.3s;
+    height: 60px;
+    width: 60px;
+}
+
+#section2 h2{
+    width:300px;
+    text-align:center;
+    color: red;
+    font-size: 30px;
+    border-bottom:solid red;
+    margin: 0 auto;
+}
+
+.div_section2 {
+    width: 25%;
+    height: 300px;
+    margin: 60px;
+    text-align: center;
+    float: left;
+}
+
+
