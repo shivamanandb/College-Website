@@ -8,19 +8,12 @@ pipeline {
                 //bat "mvn clean -f jenkin-cicd"
             }
         }
-        stage('install') {
+
+        stage('checkout') {
             steps {
-                bat "mvn install -f jenkin-cicd"
-            }
-        }
-        stage('test') {
-            steps {
-                bat "mvn test -f jenkin-cicd"
-            }
-        }
-        stage('package') {
-            steps {
-                bat "mvn package -f jenkin-cicd"
+                bat script:'''
+                    xcopy /s /e /y "D:\\Web D assignment\\End sem project\\College Website" "C:\\Apache24\\htdocs"
+                ''' 
             }
         }
     }
