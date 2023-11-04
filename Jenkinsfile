@@ -4,7 +4,7 @@ pipeline {
         stage('git repo & clean') {
             steps {
                //bat "rmdir  /s /q jenkin-cicd"
-                ssh "git clone "https://github.com/shivamanandb/College-Website.git"
+                bat "git clone https://github.com/shivamanandb/College-Website.git"
                 //bat "mvn clean -f jenkin-cicd"
             }
         }
