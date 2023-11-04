@@ -1,13 +1,18 @@
 pipeline {
     agent any
     stages {
-        // stage('git repo & clean') {
-        //     steps {
-        //        //bat "rmdir  /s /q jenkin-cicd"
-        //         bat "git clone https://github.com/shivamanandb/College-Website.git"
-        //         //bat "mvn clean -f jenkin-cicd"
-        //     }
-        // }
+ stage('Checkout') {
+            steps {
+                // Check out the code from your GitHub repository
+                checkout([$class: 'GitSCM', 
+                    branches: [[name: 'main']], 
+                    doGenerateSubmoduleConfigurations: false, 
+                    extensions: [], 
+                    submoduleCfg: [], 
+                    userRemoteConfigs: [[url: 'https://github.com/shivamanandb/College-Website.git']]
+                ])
+            }
+         }    
 
         stage('checkout') {
             steps {
